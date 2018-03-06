@@ -1,6 +1,5 @@
 <component name="libraryTable">
-  <library name="com.mashape.unirest:unirest-java:1.4.8" type="repository">
-    <properties maven-id="com.mashape.unirest:unirest-java:1.4.8" />
+  <library name="com.mashape.unirest:unirest-java:1.4.8">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/mashape/unirest/unirest-java/1.4.8/unirest-java-1.4.8.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/" />
@@ -12,7 +11,6 @@
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20140107/json-20140107.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
