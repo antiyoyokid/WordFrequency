@@ -6,7 +6,7 @@ using namespace std;
 // where the execution of program begins
 int main()
 {
-    // prints heelo world
+    // prints hello world
     cout<<"Hello World";
 
     return 0;
