@@ -12,7 +12,7 @@ public class FrequencyCounter {
      * @return
      */
     public static ArrayList<String> removeCommaFullstop(ArrayList<String> allWords) {
-        for (int j = 0; j < allWords.size() - 1; j++) {
+        for (int j = 0; j < allWords.size(); j++) {
             if (allWords.get(j).contains(",")) {
                 allWords.remove(j);
             }
@@ -56,7 +56,7 @@ public class FrequencyCounter {
     }
 
     /**
-     * 
+     *
      * @param args
      * @throws IOException
      * @throws UnirestException
