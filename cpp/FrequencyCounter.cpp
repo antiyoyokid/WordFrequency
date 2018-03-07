@@ -13,28 +13,26 @@
 #include <set>
 
 
-int main(){
+int main() {
     std::string word;
-    std::map< std::string, int > allWords;
-
-    while(std::cin >> word) {
-        for(int i =0; i < word.size(); i++){
-            if(word[i] != '-' ||word[i] != '\'' && !isdigit(word[i]) && ispunct(word[i]) )
-                word.erase(i,1);
-                i--;
-            }
-
+    std::map<std::string, int> allWords;
+    //sort out the words so that they are only allowed to have a dash and an apostrophe
+    while (std::cin >> word) {
+        for (int i = 0; i < word.size(); i++) {
+            if (word[i] != '-' || word[i] != '\'' && !isdigit(word[i]) && ispunct(word[i]))
+                word.erase(i, 1);
+            i--;
         }
-        ++allWords[word];
+    }
+    ++allWords[word];
 
 
     // Declaring the type of Predicate that accepts 2 pairs and return a bool
     typedef std::function<bool(std::pair<std::string, int>, std::pair<std::string, int>)> Comparator;
-   // http://thispointer.com/how-to-sort-a-map-by-value-in-c/
+    // http://thispointer.com/how-to-sort-a-map-by-value-in-c/
     // Defining a lambda function to compare two pairs. It will compare two pairs using second field
     Comparator compFunctor =
-            [](std::pair<std::string, int> elem1 ,std::pair<std::string, int> elem2)
-            {
+            [](std::pair<std::string, int> elem1, std::pair<std::string, int> elem2) {
                 return elem1.second < elem2.second;
             };
 
@@ -44,12 +42,10 @@ int main(){
 
     // Iterate over a set using range base for loop
     // It will display the items in sorted order of values
-    for (std::set<std::pair<std::string, int>>::const_iterator i= setOfWords.begin(); i!= setOfWords.end();++i){
+    for (std::set<std::pair<std::string, int>>::const_iterator i = setOfWords.begin(); i != setOfWords.end(); ++i) {
         std::cout << i->first << " " << i->second << "\n";
 
     }
-
-
     return 0;
 }
 
