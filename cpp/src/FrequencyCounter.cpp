@@ -48,7 +48,7 @@ int frequencySorter(std::map<std::string, int> text) {
     // It will display the items in sorted order of values
     for (std::set<std::pair<std::string, int>>::const_iterator i = setOfWords.begin(); i != setOfWords.end(); ++i) {
         std::cout << i->first << " " << i->second << "\n";
-
+    //end of program
     }
 }
 
