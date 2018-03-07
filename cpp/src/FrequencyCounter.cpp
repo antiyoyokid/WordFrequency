@@ -44,7 +44,7 @@ int frequencySorter(std::map<std::string, int> text) {
     std::set<std::pair<std::string, int>, Comparator> setOfWords(
             text.begin(), text.end(), compFunctor);
 
-    // Iterate over a set using range base for loop
+    // Iterate over a set using range base for loop by using iterator
     // It will display the items in sorted order of values
     for (std::set<std::pair<std::string, int>>::const_iterator i = setOfWords.begin(); i != setOfWords.end(); ++i) {
         std::cout << i->first << " " << i->second << "\n";
