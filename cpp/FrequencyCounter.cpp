@@ -7,12 +7,49 @@
 #include <iomanip>
 #include <cstdio>
 #include <string>
+#include <map>
+#include <vector>
+#include <functional>
+#include <set>
+
+
 int main(){
     std::string word;
+    std::map< std::string, int > allWords;
+
     while(std::cin >> word) {
-        std::cout << word;
+        for(int i =0; i < word.size(); i++){
+            if(word[i] != '-' ||word[i] != '\'' && !isdigit(word[i]) && ispunct(word[i]) )
+                word.erase(i,1);
+                i--;
+            }
+
+        }
+        ++allWords[word];
+
+
+    // Declaring the type of Predicate that accepts 2 pairs and return a bool
+    typedef std::function<bool(std::pair<std::string, int>, std::pair<std::string, int>)> Comparator;
+   // http://thispointer.com/how-to-sort-a-map-by-value-in-c/
+    // Defining a lambda function to compare two pairs. It will compare two pairs using second field
+    Comparator compFunctor =
+            [](std::pair<std::string, int> elem1 ,std::pair<std::string, int> elem2)
+            {
+                return elem1.second < elem2.second;
+            };
+
+    // Declaring a set that will store the pairs using above comparision logic
+    std::set<std::pair<std::string, int>, Comparator> setOfWords(
+            allWords.begin(), allWords.end(), compFunctor);
+
+    // Iterate over a set using range base for loop
+    // It will display the items in sorted order of values
+    for (std::set<std::pair<std::string, int>>::const_iterator i= setOfWords.begin(); i!= setOfWords.end();++i){
+        std::cout << i->first << " " << i->second << "\n";
+
     }
-//this prints out everything...
+
+
     return 0;
 }
 
