@@ -17,7 +17,7 @@ int frequencySorter(std::map<std::string, int> text);
 int main() {
     std::string word;
     std::map<std::string, int> allWords;
-    //sort out the words so that they are only allowed to have a dash and an apostrophe otherwise, ignore the punctuation
+    //sorts out the words so that they are only allowed to have a dash and an apostrophe otherwise, ignore the punctuation
     while (std::cin >> word) {
         for (int i = 0; i < word.size(); i++) {
             if (word[i] != '-' || word[i] != '\'' && !isdigit(word[i]) && ispunct(word[i]))
