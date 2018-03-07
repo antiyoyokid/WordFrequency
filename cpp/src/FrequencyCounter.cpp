@@ -12,11 +12,12 @@
 #include <functional>
 #include <set>
 
+int frequencySorter(std::map<std::string, int> text);
 
 int main() {
     std::string word;
     std::map<std::string, int> allWords;
-    //sort out the words so that they are only allowed to have a dash and an apostrophe
+    //sort out the words so that they are only allowed to have a dash and an apostrophe otherwise, ignore the punctuation
     while (std::cin >> word) {
         for (int i = 0; i < word.size(); i++) {
             if (word[i] != '-' || word[i] != '\'' && !isdigit(word[i]) && ispunct(word[i]))
@@ -25,8 +26,11 @@ int main() {
         }
     }
     ++allWords[word];
+    frequencySorter(allWords);
+    return 0;
+}
 
-
+int frequencySorter(std::map<std::string, int> text) {
     // Declaring the type of Predicate that accepts 2 pairs and return a bool
     typedef std::function<bool(std::pair<std::string, int>, std::pair<std::string, int>)> Comparator;
     // http://thispointer.com/how-to-sort-a-map-by-value-in-c/
@@ -38,7 +42,7 @@ int main() {
 
     // Declaring a set that will store the pairs using above comparision logic
     std::set<std::pair<std::string, int>, Comparator> setOfWords(
-            allWords.begin(), allWords.end(), compFunctor);
+            text.begin(), text.end(), compFunctor);
 
     // Iterate over a set using range base for loop
     // It will display the items in sorted order of values
@@ -46,6 +50,7 @@ int main() {
         std::cout << i->first << " " << i->second << "\n";
 
     }
-    return 0;
 }
+
+
 

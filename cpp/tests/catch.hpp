@@ -234,9 +234,9 @@ namespace Catch {
 #  define INTERNAL_CATCH_UNIQUE_NAME( name ) INTERNAL_CATCH_UNIQUE_NAME_LINE( name, __LINE__ )
 #endif
 
-#include <iosfwd>
-#include <string>
-#include <cstdint>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdint"
 
 namespace Catch {
 
@@ -314,8 +314,8 @@ namespace Catch {
 
 // start catch_interfaces_testcase.h
 
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -346,9 +346,9 @@ namespace Catch {
 // end catch_interfaces_testcase.h
 // start catch_stringref.h
 
-#include <cstddef>
-#include <string>
-#include <iosfwd>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstddef"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
 
 namespace Catch {
 
@@ -619,15 +619,15 @@ namespace Catch {
 
 // start catch_tostring.h
 
-#include <vector>
-#include <cstddef>
-#include <type_traits>
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstddef"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/type_traits"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 // start catch_stream.h
 
-#include <iosfwd>
-#include <cstddef>
-#include <ostream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstddef"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
 
 namespace Catch {
 
@@ -1094,9 +1094,9 @@ namespace Catch {
 
 // Separate std::chrono::duration specialization
 #if defined(CATCH_CONFIG_ENABLE_CHRONO_STRINGMAKER)
-#include <ctime>
-#include <ratio>
-#include <chrono>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ctime"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ratio"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/chrono"
 
 namespace Catch {
 
@@ -1214,7 +1214,7 @@ struct ratio_string<std::milli> {
 #endif
 
 // end catch_tostring.h
-#include <iosfwd>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
 
 #ifdef _MSC_VER
 #pragma warning(push)
@@ -1376,7 +1376,7 @@ namespace Catch {
 // end catch_decomposer.h
 // start catch_interfaces_capture.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -1520,7 +1520,7 @@ namespace Catch {
 // end catch_assertionhandler.h
 // start catch_message.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -1715,7 +1715,7 @@ namespace Catch {
 
 // start catch_totals.h
 
-#include <cstddef>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstddef"
 
 namespace Catch {
 
@@ -1745,7 +1745,7 @@ namespace Catch {
 }
 
 // end catch_totals.h
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -1773,7 +1773,7 @@ namespace Catch {
 // end catch_section_info.h
 // start catch_timer.h
 
-#include <cstdint>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdint"
 
 namespace Catch {
 
@@ -1793,7 +1793,7 @@ namespace Catch {
 } // namespace Catch
 
 // end catch_timer.h
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -1822,8 +1822,8 @@ namespace Catch {
 // end catch_section.h
 // start catch_benchmark.h
 
-#include <cstdint>
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdint"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -1870,8 +1870,8 @@ namespace Catch {
 
 // start catch_interfaces_registry_hub.h
 
-#include <string>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -1921,9 +1921,9 @@ namespace Catch {
         static std::string translatorName( signature )
 #endif
 
-#include <exception>
-#include <string>
-#include <vector>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/exception"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
 
 namespace Catch {
     using exceptionTranslateFunction = std::string(*)();
@@ -1989,8 +1989,8 @@ namespace Catch {
 // end catch_interfaces_exception.h
 // start catch_approx.h
 
-#include <type_traits>
-#include <stdexcept>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/type_traits"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/stdexcept"
 
 namespace Catch {
 namespace Detail {
@@ -2111,8 +2111,8 @@ struct StringMaker<Catch::Detail::Approx> {
 // end catch_approx.h
 // start catch_string_manip.h
 
-#include <string>
-#include <iosfwd>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
 
 namespace Catch {
 
@@ -2142,8 +2142,8 @@ namespace Catch {
 
 // start catch_matchers.h
 
-#include <string>
-#include <vector>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
 
 namespace Catch {
 namespace Matchers {
@@ -2289,8 +2289,8 @@ using Matchers::Impl::MatcherBase;
 // end catch_matchers.h
 // start catch_matchers_floating.h
 
-#include <type_traits>
-#include <cmath>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/type_traits"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cmath"
 
 namespace Catch {
 namespace Matchers {
@@ -2332,7 +2332,7 @@ namespace Matchers {
 // end catch_matchers_floating.h
 // start catch_matchers_string.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 namespace Matchers {
@@ -2401,7 +2401,7 @@ namespace Matchers {
 // end catch_matchers_string.h
 // start catch_matchers_vector.h
 
-#include <algorithm>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
 
 namespace Catch {
 namespace Matchers {
@@ -2645,9 +2645,9 @@ namespace Catch {
 // in the conditionally compiled sections
 // start catch_test_case_info.h
 
-#include <string>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -2989,9 +2989,9 @@ namespace Catch
 }
 
 // end catch_wildcard_pattern.h
-#include <string>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -3053,7 +3053,7 @@ namespace Catch {
 // end catch_test_spec.h
 // start catch_interfaces_tag_alias_registry.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -3129,10 +3129,10 @@ namespace Catch {
 // end catch_test_spec_parser.h
 // start catch_interfaces_config.h
 
-#include <iosfwd>
-#include <string>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -3199,9 +3199,9 @@ namespace Catch {
 // end catch_interfaces_config.h
 // Libstdc++ doesn't like incomplete classes for unique_ptr
 
-#include <memory>
-#include <vector>
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 #ifndef CATCH_CONFIG_CONSOLE_WIDTH
 #define CATCH_CONFIG_CONSOLE_WIDTH 80
@@ -3298,7 +3298,7 @@ namespace Catch {
 // end catch_config.hpp
 // start catch_assertionresult.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -3407,11 +3407,11 @@ namespace Catch {
 } // end namespace Catch
 
 // end catch_option.hpp
-#include <string>
-#include <iosfwd>
-#include <map>
-#include <set>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/map"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/set"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -3619,13 +3619,13 @@ namespace Catch {
 } // end namespace Catch
 
 // end catch_interfaces_reporter.h
-#include <algorithm>
-#include <cstring>
-#include <cfloat>
-#include <cstdio>
-#include <assert.h>
-#include <memory>
-#include <ostream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cfloat"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdio"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/assert.h"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
 
 namespace Catch {
     void prepareExpandedExpression(AssertionResult& result);
@@ -4108,7 +4108,7 @@ namespace Catch {
 
 // start catch_xmlwriter.h
 
-#include <vector>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
 
 namespace Catch {
 
@@ -4312,9 +4312,9 @@ namespace Catch {
 // Keep these here for external reporters
 // start catch_test_case_tracker.h
 
-#include <string>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 namespace TestCaseTracking {
@@ -4495,8 +4495,8 @@ namespace Catch {
 // Cpp files will be included in the single-header file here
 // start catch_approx.cpp
 
-#include <cmath>
-#include <limits>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cmath"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/limits"
 
 namespace {
 
@@ -4546,7 +4546,7 @@ std::string StringMaker<Catch::Detail::Approx>::convert(Catch::Detail::Approx co
 
 // start catch_context.h
 
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -4638,7 +4638,7 @@ namespace Catch {
 
 // start catch_fatal_condition.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 #if defined ( CATCH_PLATFORM_WINDOWS ) /////////////////////////////////////////
 // start catch_windows_h_proxy.h
@@ -4713,7 +4713,7 @@ namespace Catch {
 
 #  else // CATCH_CONFIG_POSIX_SIGNALS is defined
 
-#include <signal.h>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/signal.h"
 
 namespace Catch {
 
@@ -4738,7 +4738,7 @@ namespace Catch {
 #endif // not Windows
 
 // end catch_fatal_condition.h
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -5142,10 +5142,10 @@ namespace Catch {
 // This project is hosted at https://github.com/philsquared/textflowcpp
 
 
-#include <cassert>
-#include <ostream>
-#include <sstream>
-#include <vector>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cassert"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
 
 #ifndef CATCH_CLARA_TEXTFLOW_CONFIG_CONSOLE_WIDTH
 #define CATCH_CLARA_TEXTFLOW_CONFIG_CONSOLE_WIDTH 80
@@ -5459,9 +5459,9 @@ namespace Catch { namespace clara { namespace TextFlow {
 // ----------- end of #include from clara_textflow.hpp -----------
 // ........... back in clara.hpp
 
-#include <memory>
-#include <set>
-#include <algorithm>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/set"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
 
 #if !defined(CATCH_PLATFORM_WINDOWS) && ( defined(WIN32) || defined(__WIN32__) || defined(_WIN32) || defined(_MSC_VER) )
 #define CATCH_PLATFORM_WINDOWS
@@ -6356,8 +6356,8 @@ namespace Catch {
 } // end namespace Catch
 
 // end catch_commandline.h
-#include <fstream>
-#include <ctime>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/fstream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ctime"
 
 namespace Catch {
 
@@ -6531,8 +6531,8 @@ namespace Catch {
 // end catch_commandline.cpp
 // start catch_common.cpp
 
-#include <cstring>
-#include <ostream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
 
 namespace Catch {
 
@@ -6568,8 +6568,8 @@ namespace Catch {
 
 // start catch_enforce.h
 
-#include <stdexcept>
-#include <iosfwd>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/stdexcept"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
 
 #define CATCH_PREPARE_EXCEPTION( type, msg ) \
     type( static_cast<std::ostringstream&&>( Catch::ReusableStringStream().get() << msg ).str() )
@@ -6657,7 +6657,7 @@ namespace Catch {
 }
 
 // end catch_errno_guard.h
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
     namespace {
@@ -6754,7 +6754,7 @@ namespace {
 
 #elif defined( CATCH_CONFIG_COLOUR_ANSI ) //////////////////////////////////////
 
-#include <unistd.h>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/unistd.h"
 
 namespace Catch {
 namespace {
@@ -6922,7 +6922,7 @@ namespace Catch {
 
 // start catch_debug_console.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
     void writeToDebugConsole( std::string const& text );
@@ -6998,8 +6998,8 @@ namespace Catch {
     } // namespace Catch
 
 #elif defined(CATCH_PLATFORM_LINUX)
-    #include <fstream>
-    #include <string>
+    #include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/fstream"
+    #include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
     namespace Catch{
         // The standard POSIX way of detecting a debugger is to attempt to
@@ -7065,7 +7065,7 @@ namespace Catch {
 // end catch_decomposer.cpp
 // start catch_errno_guard.cpp
 
-#include <cerrno>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cerrno"
 
 namespace Catch {
         ErrnoGuard::ErrnoGuard():m_oldErrno(errno){}
@@ -7076,9 +7076,9 @@ namespace Catch {
 
 // start catch_exception_translator_registry.h
 
-#include <vector>
-#include <string>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -7252,7 +7252,7 @@ namespace Catch {
 
 #  else // CATCH_CONFIG_POSIX_SIGNALS is defined
 
-#include <signal.h>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/signal.h"
 
 namespace Catch {
 
@@ -7565,7 +7565,7 @@ namespace Catch {
 
 // start catch_list.h
 
-#include <set>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/set"
 
 namespace Catch {
 
@@ -7597,9 +7597,9 @@ namespace Catch {
 }
 
 // end catch_text.h
-#include <limits>
-#include <algorithm>
-#include <iomanip>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/limits"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iomanip"
 
 namespace Catch {
 
@@ -7766,10 +7766,10 @@ using Matchers::Impl::MatcherBase;
 // end catch_matchers.cpp
 // start catch_matchers_floating.cpp
 
-#include <cstdlib>
-#include <cstdint>
-#include <cstring>
-#include <stdexcept>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdlib"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdint"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/stdexcept"
 
 namespace Catch {
 namespace Matchers {
@@ -7894,7 +7894,7 @@ Floating::WithinAbsMatcher WithinAbs(double target, double margin) {
 // end catch_matchers_floating.cpp
 // start catch_matchers_string.cpp
 
-#include <regex>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/regex"
 
 namespace Catch {
 namespace Matchers {
@@ -8052,7 +8052,7 @@ namespace Catch {
 
 // start catch_random_number_generator.h
 
-#include <algorithm>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
 
 namespace Catch {
 
@@ -8081,7 +8081,7 @@ namespace Catch {
 }
 
 // end catch_random_number_generator.h
-#include <cstdlib>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdlib"
 
 namespace Catch {
 
@@ -8106,10 +8106,10 @@ namespace Catch {
 
 // start catch_test_case_registry_impl.h
 
-#include <vector>
-#include <set>
-#include <algorithm>
-#include <ios>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/set"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ios"
 
 namespace Catch {
 
@@ -8160,7 +8160,7 @@ namespace Catch {
 // end catch_test_case_registry_impl.h
 // start catch_reporter_registry.h
 
-#include <map>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/map"
 
 namespace Catch {
 
@@ -8189,7 +8189,7 @@ namespace Catch {
 
 // start catch_tag_alias.h
 
-#include <string>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
 
 namespace Catch {
 
@@ -8203,7 +8203,7 @@ namespace Catch {
 } // end namespace Catch
 
 // end catch_tag_alias.h
-#include <map>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/map"
 
 namespace Catch {
 
@@ -8223,8 +8223,8 @@ namespace Catch {
 // end catch_tag_alias_registry.h
 // start catch_startup_exception_registry.h
 
-#include <vector>
-#include <exception>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/exception"
 
 namespace Catch {
 
@@ -8370,9 +8370,9 @@ namespace Catch {
 // end catch_result_type.cpp
 // start catch_run_context.cpp
 
-#include <cassert>
-#include <algorithm>
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cassert"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
 
@@ -8878,7 +8878,7 @@ namespace Catch {
 
 // start catch_session.h
 
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -8919,7 +8919,7 @@ namespace Catch {
 // end catch_session.h
 // start catch_version.h
 
-#include <iosfwd>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iosfwd"
 
 namespace Catch {
 
@@ -8948,8 +8948,8 @@ namespace Catch {
 }
 
 // end catch_version.h
-#include <cstdlib>
-#include <iomanip>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdlib"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iomanip"
 
 namespace Catch {
 
@@ -9221,12 +9221,12 @@ namespace Catch {
 // end catch_startup_exception_registry.cpp
 // start catch_stream.cpp
 
-#include <cstdio>
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdio"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iostream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/fstream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 #if defined(__clang__)
 #    pragma clang diagnostic push
@@ -9419,10 +9419,10 @@ namespace Catch {
 // end catch_stream.cpp
 // start catch_string_manip.cpp
 
-#include <algorithm>
-#include <ostream>
-#include <cstring>
-#include <cctype>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cctype"
 
 namespace Catch {
 
@@ -9495,9 +9495,9 @@ namespace Catch {
 #    pragma clang diagnostic ignored "-Wexit-time-destructors"
 #endif
 
-#include <ostream>
-#include <cstring>
-#include <cstdint>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdint"
 
 namespace {
     const uint32_t byte_2_lead = 0xC0;
@@ -9626,7 +9626,7 @@ namespace Catch {
 // end catch_tag_alias_autoregistrar.cpp
 // start catch_tag_alias_registry.cpp
 
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
 
@@ -9673,10 +9673,10 @@ namespace Catch {
 // end catch_tag_alias_registry.cpp
 // start catch_test_case_info.cpp
 
-#include <cctype>
-#include <exception>
-#include <algorithm>
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cctype"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/exception"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
 
@@ -9838,7 +9838,7 @@ namespace Catch {
 // end catch_test_case_info.cpp
 // start catch_test_case_registry_impl.cpp
 
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
 
@@ -9935,11 +9935,11 @@ namespace Catch {
 // end catch_test_case_registry_impl.cpp
 // start catch_test_case_tracker.cpp
 
-#include <algorithm>
-#include <assert.h>
-#include <stdexcept>
-#include <memory>
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/assert.h"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/stdexcept"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 #if defined(__clang__)
 #    pragma clang diagnostic push
@@ -10238,10 +10238,10 @@ namespace Catch {
 // end catch_test_registry.cpp
 // start catch_test_spec.cpp
 
-#include <algorithm>
-#include <string>
-#include <vector>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/string"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/vector"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
 
@@ -10371,7 +10371,7 @@ namespace Catch {
 // end catch_test_spec_parser.cpp
 // start catch_timer.cpp
 
-#include <chrono>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/chrono"
 
 namespace Catch {
 
@@ -10436,8 +10436,8 @@ namespace Catch {
 #define CATCH_CONFIG_ENABLE_CHRONO_STRINGMAKER
 #endif
 
-#include <cmath>
-#include <iomanip>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cmath"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iomanip"
 
 namespace Catch {
 
@@ -10707,7 +10707,7 @@ namespace Catch {
 // end catch_totals.cpp
 // start catch_uncaught_exceptions.cpp
 
-#include <exception>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/exception"
 
 namespace Catch {
     bool uncaught_exceptions() {
@@ -10721,7 +10721,7 @@ namespace Catch {
 // end catch_uncaught_exceptions.cpp
 // start catch_version.cpp
 
-#include <ostream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ostream"
 
 namespace Catch {
 
@@ -10759,7 +10759,7 @@ namespace Catch {
 // end catch_version.cpp
 // start catch_wildcard_pattern.cpp
 
-#include <sstream>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
 
 namespace Catch {
 
@@ -10800,7 +10800,7 @@ namespace Catch {
 // end catch_wildcard_pattern.cpp
 // start catch_xmlwriter.cpp
 
-#include <iomanip>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/iomanip"
 
 namespace Catch {
 
@@ -10983,11 +10983,11 @@ namespace Catch {
 // end catch_xmlwriter.cpp
 // start catch_reporter_bases.cpp
 
-#include <cstring>
-#include <cfloat>
-#include <cstdio>
-#include <assert.h>
-#include <memory>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstring"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cfloat"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdio"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/assert.h"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/memory"
 
 namespace Catch {
     void prepareExpandedExpression(AssertionResult& result) {
@@ -11311,8 +11311,8 @@ private:
 // end catch_reporter_compact.cpp
 // start catch_reporter_console.cpp
 
-#include <cfloat>
-#include <cstdio>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cfloat"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/cstdio"
 
 #if defined(_MSC_VER)
 #pragma warning(push)
@@ -11929,10 +11929,10 @@ CATCH_REGISTER_REPORTER("console", ConsoleReporter)
 // end catch_reporter_console.cpp
 // start catch_reporter_junit.cpp
 
-#include <assert.h>
-#include <sstream>
-#include <ctime>
-#include <algorithm>
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/assert.h"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/sstream"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/ctime"
+#include "../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/algorithm"
 
 namespace Catch {
 
